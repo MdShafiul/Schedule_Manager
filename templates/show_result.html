@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Result</title>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for( 'static' , filename='table_style1.css' ) }}" >
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="w3-bar w3-black w3-card">
+    <a href="/{{username}}/{{table}}" class="w3-bar-item w3-button w3-padding-large">{{table}}</a>
+    <a href="/{{username}}/{{table}}/add" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ADD</a>
+    <a href="/{{username}}/{{table}}/delete" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DELETE</a>
+    <a href="/{{username}}/{{table}}/result" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RESULT</a>
+    <a href="/{{username}}/{{table}}/gantt" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GANTT</a>
+    <a href="/{{username}}" class="w3-bar-item w3-button w3-padding-large w3-right">User</a>
+</div>
+
+
+<table border = 1 align="center"  class="table-fill">
+    <thead>
+        <tr>
+            <th  class="text-left" >ID</th>
+            <th  class="text-left" >Length</th>
+            <th  class="text-left" >EST</th>
+            <th  class="text-left" >EFT</th>
+            <th  class="text-left" >LST</th>
+            <th  class="text-left" >LFT</th>
+            <th  class="text-left" >TF</th>
+            <th  class="text-left" >FF</th>
+            <th  class="text-left" >Duration</th>
+        </tr>
+    </thead>
+    <tbody class="table-hover">
+    {% for user in userDetails %}
+    <tr>
+        <td  class="text-left" > {{user[0]}} </td>
+        <td  class="text-left" > {{user[2]}} </td>
+        <td  class="text-left" > {{user[3]}} </td>
+        <td  class="text-left" > {{user[4]}} </td>
+        <td  class="text-left" > {{user[5]}} </td>
+        <td  class="text-left" > {{user[6]}} </td>
+        <td  class="text-left" > {{user[7]}} </td>
+        <td  class="text-left" > {{user[8]}} </td>
+        <td  class="text-left" > {{user[9]}} </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

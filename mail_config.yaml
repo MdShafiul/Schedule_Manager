@@ -1,0 +1,10 @@
+DEBUG=True
+TESTING = False
+MAIL_SERVER='smtp.gmail.com'
+MAIL_PORT=465
+MAIL_USE_SSL=True
+MAIL_USE_TLS=False
+MAIL_USERNAME = 'shiamspecialforce@gmail.com'
+MAIL_PASSWORD= 'ecxrutbajyamdhak'
+MAIL_DEFAULT_SENDER = 'shiamspecialforce@gmail.com'
+MAIL_ASCII_ATTACHMENTS = False

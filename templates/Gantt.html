@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="{{ url_for( 'static' , filename='gantt.css' ) }}" >
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gantt</title>
+</head>
+
+<div class="div1" align="center">
+<img src="/static/gantt1.png" align="center"/>
+</div>
+
+<div class="buttons" align="center">
+    <button class="btn-hover color-1" onclick="window.location.href='/{{username}}/{{table}}'">{{table}}</button>
+</div>
+
+<div align="center">
+    <h1 style="background-color:Orange;">Only EST to EFT</h1>
+    <h1 style="background-color:Green;">Only EST to EFT</h1>
+    <h1 style="background-color:Red;">Only LST to LFT</h1>
+    <h1 style="background-color:Gray;">Common area LST to EFT</h1>
+</div>
+
+</html>

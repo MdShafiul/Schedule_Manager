@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://wallpaperplay.com/walls/full/3/6/0/63336.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <img src="{{ url_for( 'static' , filename='schedulemanager.png' ) }}" width="128" height="30.31" />
+  </div>
+  <div class="w3-display-topright w3-padding-large w3-xlarge">
+      <a onclick="window.location.href='/'" class="w3-btn w3-round-xxlarge">Log Out</a>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">{{ name }}</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Data Tables</p>
+      <div align="center">
+          {% for rec in records %}
+          <a href="/{{name}}/{{rec[1]}}" class="w3-btn w3-round-xxlarge">{{rec[1]}}</a>
+          {% endfor %}
+      </div>
+     <div align="center"><p><a onclick="window.location.href='/{{name}}/addTable'" class="w3-btn w3-round-xxlarge">ADD</a></p></div>
+     <div align="center"><p><a onclick="window.location.href='/{{name}}/deleteTable'" class="w3-btn w3-round-xxlarge">DELETE</a></p></div>
+  </div>
+</div>
+
+</body>
+</html>

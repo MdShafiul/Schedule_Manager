@@ -1,0 +1,46 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for( 'static' , filename='start_style.css' ) }}" >
+
+<h1>Schedule Manager</h1>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#" method="post" name="signUp" value="signUp">
+			<h1>Create Account</h1>
+			<input type="text" placeholder="Name" name="person" required="required" />
+			<input type="email" placeholder="Email" name="email" required="required" />
+			<input type="password" placeholder="Password" name="password" required="required" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#" method="post" name="signIn" value="signIn">
+			<h1>Sign in</h1>
+			<input type="email" placeholder="Email" name="email" required="required" />
+			<input type="password" placeholder="Password" name="password" required="required" />
+			<a href="/forget_pass">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Manager!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+document.getElementById("signUp").addEventListener("click", () =>{
+  document.getElementById("container").classList.add("right-panel-active");
+});
+document.getElementById("signIn").addEventListener("click", () =>{
+  document.getElementById("container").classList.remove("right-panel-active");
+});
+</script>
