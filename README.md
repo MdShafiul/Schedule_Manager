@@ -9,19 +9,19 @@ ERP based web-application in Python using Flask
 - MySQL Server
 
 ## Intallation Steps:
- 1. Database Configuration:
+ 1. __Database Configuration__:
 
  	Fill up the Schedule_Manager/db.yaml file
- 2. Mail Configuration:
+ 2. __Mail Configuration__:
 
- 	Set 'MAIL_USERNAME' and 'MAIL_PASSWORD' at 18 , 19 lines of Schedule_Manager/main.py
- 3. Python Packages:
+ 	Set __'MAIL_USERNAME'__ and __'MAIL_PASSWORD'__ at 18 , 19 lines of Schedule_Manager/main.py
+ 3. __Python Packages__:
 
  	Download python packages
  	```
 	pip install -r requirements.txt
 	```
- 4. Run App:
+ 4. __Run App__:
 
  	To run application locally:
  	```
