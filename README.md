@@ -6,7 +6,7 @@ Schedule Manager is based on the concept of ***network diagram of project manage
 ## Purpose:
  - Planning and tracking project from beginning to end.
  - Calculating the total duration of project. 
- - Find out critical activities (where, Total Float = Free Float = 0 ) 
+ - Find out critical tasks (where, Total Float = Free Float = 0 ) 
 
 ## Platform:
  Web App
