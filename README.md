@@ -6,6 +6,6 @@ ERP based web-application in Python using Flask
 
 ## Requirements:
 - Python
-- MySQL
+- MySQL Server
 
 ## Intallation:
