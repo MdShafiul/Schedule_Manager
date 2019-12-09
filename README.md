@@ -32,10 +32,10 @@ ERP based web-application in Python using Flask
  User will see the __'Sign In'__ page of the app. 
 
 ![SignIn](screenshots/2_SignIn.png)
-  User must have to sign up before
+  User must have to __sign up__ before
 
 ![SignUp](screenshots/1_SignUp.png)
- Profile page 
+ __Profile page__ 
 
  __ADD:__ to add a data-table 
 
@@ -43,3 +43,24 @@ ERP based web-application in Python using Flask
 
  Click a project name to view the data-table
 ![3_Profile](screenshots/3_Profile.png)
+ __ADD__/__DELETE__ data-table
+
+![Add_Table](screenshots/Add_Table.png)
+ __View Data-Table__
+
+![4_DataTable](screenshots/4_DataTable.png)
+ __Add Task__
+
+![Add_Task](screenshots/Add_Task.png)
+ __Delete Task__
+
+![Delete_Task](screenshots/Delete_Task.png)
+ __Result View__
+
+![5_Result](screenshots/5_Result.png)
+ __Gantt Chart__
+
+![6_GanttChart](screenshots/6_GanttChart.png)
+ Finally __Log Out__
+
+![7_LogOut](screenshots/7_LogOut.png)
