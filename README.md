@@ -18,8 +18,12 @@ ERP based web-application in Python using Flask
  3. Python Packages:
 
  	Download python packages
- 	''' pip install -r requirements.txt '''
+ 	'''
+	pip install -r requirements.txt
+	'''
  4. Run App:
 
  	To run application locally:
- 	''' python manage.py start '''
+ 	'''
+	python manage.py start
+	'''
