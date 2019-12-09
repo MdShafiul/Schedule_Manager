@@ -46,29 +46,36 @@ ERP based web-application in Python using Flask
  Click a project name to view the data-table
 ![3_Profile](screenshots/3_Profile.png)
 
+
  __ADD__/__DELETE__ data-table
 
 ![Add_Table](screenshots/Add_Table.png)
+
 
  __View Data-Table__
 
 ![4_DataTable](screenshots/4_DataTable.png)
 
+
  __Add Task__
 
 ![Add_Task](screenshots/Add_Task.png)
+
 
  __Delete Task__
 
 ![Delete_Task](screenshots/Delete_Task.png)
 
+
  __Result View__
 
 ![5_Result](screenshots/5_Result.jpg)
 
+
  __Gantt Chart__
 
 ![6_GanttChart](screenshots/6_GanttChart.png)
+
 
  Finally __Log Out__
 
