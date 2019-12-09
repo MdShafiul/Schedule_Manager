@@ -1,6 +1,13 @@
 # Schedule_Manager
 ERP based web-application in Python using Flask
 
+Schedule Manager is based on the concept of ***network diagram of project management*** . It represents all of the tasks, responsibilities and work-flow for a project by data-table and ***gantt chart***. 
+
+## Purpose:
+ - Planning and tracking project from beginning to end.
+ - Calculating the total duration of project. 
+ - Find out critical activities (where, Total Float = Free Float = 0 ) 
+
 ## Platform:
  Web App
 
