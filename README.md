@@ -32,6 +32,14 @@ ERP based web-application in Python using Flask
  User will see the __'Sign In'__ page of the app. 
 
 ![SignIn](screenshots/2_SignIn.png)
-  User must have to sign up
+  User must have to sign up before
 
 ![SignUp](screenshots/1_SignUp.png)
+ Profile page 
+
+ __ADD:__ to add a data-table 
+
+ __DELETE:__ to delete a data-table
+
+ Click a project name to view the data-table
+![3_Profile](screenshots/3_Profile.png)
