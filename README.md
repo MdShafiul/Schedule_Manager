@@ -27,3 +27,6 @@ ERP based web-application in Python using Flask
  	```
 	python manage.py start
 	```
+## Visual Representation:
+ At first type the url -  http:/localhost:8000 to visit the site. 
+ User will see the __'Sign In'__ page of the project. 
