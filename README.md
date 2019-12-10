@@ -3,6 +3,14 @@ ERP based web-application in Python using Flask
 
 Schedule Manager is based on the concept of ***network diagram of project management*** . It represents all of the tasks, responsibilities and work-flow for a project by data-table and ***gantt chart***. 
 
+## References:
+
+ - [Network Diagram](https://www.inloox.com/project-management-glossary/project-network-diagram/)
+
+ - [Gantt chart](https://en.wikipedia.org/wiki/Gantt_chart)
+
+ - [See more](https://en.wikipedia.org/wiki/Critical_path_method)
+
 ## Purpose:
  - Planning and tracking project from beginning to end.
  - Calculating the total duration of project. 
@@ -75,6 +83,12 @@ Schedule Manager is based on the concept of ***network diagram of project manage
 
 
  __Result View__
+ - EST - Early Start Time
+ - EFT - Early Finish Time
+ - LST - Last Start Time
+ - LFT - Last Finish Time
+ - TF - Total Float
+ - FF - Free Float
 
 ![5_Result](screenshots/5_Result.jpg)
 
