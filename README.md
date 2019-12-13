@@ -74,7 +74,7 @@ Schedule Manager is based on the concept of ***network diagram of project manage
 
  __Add Task__
 
-If there have no dependence type "none"
+ If there have no dependence type "none"
 
 ![Add_Task](screenshots/Add_Task.png)
 
