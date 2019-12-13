@@ -17,7 +17,7 @@ app.config['MAIL_USE_SSL']=True
 app.config['MAIL_USE_TLS']=False
 app.config['MAIL_USERNAME'] = '*********@gmail.com'
 app.config['MAIL_PASSWORD']= '****************'                         #app password for gmail
-app.config['MAIL_DEFAULT_SENDER'] = 'shiamspecialforce@gmail.com'
+app.config['MAIL_DEFAULT_SENDER'] = '**********@gmail.com'
 app.config['MAIL_ASCII_ATTACHMENTS'] = False
 #mail_config
 mail = Mail(app)

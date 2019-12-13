@@ -13,18 +13,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
-                <element signature="e#9692#9911#0" />
-                <element signature="e#9994#10369#0" />
-                <element signature="e#10458#10906#0" />
-                <element signature="e#11003#11546#0" />
-                <element signature="e#11649#12344#0" />
-                <element signature="e#12413#12690#0" />
-                <element signature="e#12769#14811#0" />
-                <element signature="e#14889#14987#0" />
               </folding>
             </state>
           </provider>
@@ -63,11 +55,11 @@
         <option value="$PROJECT_DIR$/templates/start.html" />
         <option value="$PROJECT_DIR$/templates/Gantt.html" />
         <option value="J:/DBMS_2016331513/Project_Management/main.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/templates/show_home.html" />
         <option value="$PROJECT_DIR$/templates/show_result.html" />
         <option value="$PROJECT_DIR$/templates/add.html" />
         <option value="$PROJECT_DIR$/templates/delete.html" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -82,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,7 +91,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,18 +333,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
-            <element signature="e#9692#9911#0" />
-            <element signature="e#9994#10369#0" />
-            <element signature="e#10458#10906#0" />
-            <element signature="e#11003#11546#0" />
-            <element signature="e#11649#12344#0" />
-            <element signature="e#12413#12690#0" />
-            <element signature="e#12769#14811#0" />
-            <element signature="e#14889#14987#0" />
           </folding>
         </state>
       </provider>
