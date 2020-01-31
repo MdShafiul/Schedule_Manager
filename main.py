@@ -35,7 +35,7 @@ mysql = MySQL(app)
 
 
 @app.route('/forget_pass' , methods=['GET','POST'])
-def robot():
+def forget_password():
     if request.method == 'POST':
         userInput = request.form
         session["code"] = randomString(10)
